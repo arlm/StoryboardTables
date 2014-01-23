@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StoryboardTables", "StoryboardTables.csproj", "{08A1E777-C427-42A1-9DB4-F7C9105E389B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDB.SharingSource", "IDB.SharingSource\IDB.SharingSource.csproj", "{CCC69261-891C-4C34-B5DA-727D95823304}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Debug|iPhone.Build.0 = Debug|iPhone
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Release|iPhone.ActiveCfg = Release|iPhone
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Release|iPhone.Build.0 = Release|iPhone
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{08A1E777-C427-42A1-9DB4-F7C9105E389B}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Debug|Any CPU.Build.0 = Debug|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Debug|iPhone.Build.0 = Debug|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Debug|iPhoneSimulator.Build.0 = Debug|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Release|iPhone.ActiveCfg = Release|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Release|iPhone.Build.0 = Release|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Release|iPhoneSimulator.ActiveCfg = Release|iPhone
+		{CCC69261-891C-4C34-B5DA-727D95823304}.Release|iPhoneSimulator.Build.0 = Release|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = StoryboardTables.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">iPhone</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CCC69261-891C-4C34-B5DA-727D95823304}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>IDB.SharingSource</RootNamespace>
+    <AssemblyName>IDB.SharingSource</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhone' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhone' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Apple">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.Apple.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Core">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="IDB.SharingSource">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\IDB.SharingSource.exe</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Android">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Blackberry">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.Blackberry.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Common">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.Windows">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="PushSharp.WindowsPhone">
+      <HintPath>..\..\archive\StoryboardTables\IDB.SharingSource\bin\Debug\PushSharp.WindowsPhone.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>

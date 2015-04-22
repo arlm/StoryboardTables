@@ -110,3 +110,4 @@ IDB.SharingSource/bin/Debug
 IDB.SharingSource/obj/iPhone/Debug
 bin/iPhoneSimulator/Debug
 obj/iPhoneSimulator/Debug
+*.userprefs
